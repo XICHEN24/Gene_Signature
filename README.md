@@ -1,9 +1,6 @@
 # KnowEnG's Gene Signature Pipeline
  This is the Knowledge Engine for Genomics (KnowEnG), an NIH BD2K Center of Excellence, Gene Signature Pipeline.
 
-This pipeline .... It will go through the following steps
-
-
   
 * * * 
 ## How to run this pipeline with Our data
@@ -15,7 +12,7 @@ Email omarsobh@illinois.edu infrastructure team (IST) lead to:
 
 ###2. Clone the Gene_Signature Repo
 ```
- git clone https://github.com/KnowEnG-Research/Gene Signature.git
+ git clone https://github.com/KnowEnG-Research/Gene_Signature.git
 ```
  
 ###3. Install the following (Ubuntu or Linux)
@@ -107,9 +104,9 @@ set the spreadsheet file names to point to your data
 
 | **Key**                   | **Value** | **Comments** |
 | ------------------------- | --------- | ------------ |
-| pipeline_type                    | **gene_priorization_pipeline**, **samples_clustering_pipeline**, **geneset_characterization_pipeline**  | Choose pipeline cleaning type |
-| spreadsheet_name_full_path_1 | directory+spreadsheet_name|  Path and file name of user supplied gene sets |
-| spreadsheet_name_full_path_2 | directory+spreadsheet_name| Path and file name of our supplied gene sets |
+| method                    | cosine_similarity | Calculate cosine similarity between two gene expression data |
+| spreadsheet_name_full_path_1 | directory+spreadsheet_name|  Path and file name of user supplied gene expression data  |
+| spreadsheet_name_full_path_2 | directory+spreadsheet_name| Path and file name of our supplied ggene expression data  |
 | results_directory | directory | Directory to save the output files |
 
 spreadsheet_name_full_path_1 = gene_spreadsheet_1.tsv</br>
