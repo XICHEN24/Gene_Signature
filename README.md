@@ -5,17 +5,17 @@
 * * * 
 ## How to run this pipeline with Our data
 * * * 
-###1. Get Access to KnowEnG-Research Repository:
+### 1. Get Access to KnowEnG-Research Repository:
 Email omarsobh@illinois.edu infrastructure team (IST) lead to:
 
 * __Access__ KnowEnG-Research github repo
 
-###2. Clone the Gene_Signature Repo
+### 2. Clone the Gene_Signature Repo
 ```
  git clone https://github.com/KnowEnG-Research/Gene_Signature.git
 ```
  
-###3. Install the following (Ubuntu or Linux)
+### 3. Install the following (Ubuntu or Linux)
 ```
  apt-get install -y python3-pip
  apt-get install -y libblas-dev liblapack-dev libatlas-base-dev gfortran
@@ -30,24 +30,24 @@ Email omarsobh@illinois.edu infrastructure team (IST) lead to:
  pip3 install redis
 ```
 
-###4. Change directory to Gene_Signature
+### 4. Change directory to Gene_Signature
 
 ```
 cd Gene_Signature 
 ```
 
-###5. Change directory to test
+### 5. Change directory to test
 
 ```
 cd test
 ```
  
-###6. Create a local directory "run_dir" and place all the run files in it
+### 6. Create a local directory "run_dir" and place all the run files in it
 ```
 make env_setup
 ```
 
-###7. Use following "make" commands to run a gene signature pipeline
+### 7. Use following "make" commands to run a gene signature pipeline
 ```
 make run_cosine_similarity
 ```
