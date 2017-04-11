@@ -2,7 +2,7 @@
 The Dockefile in this directory contains all the commands, in order, needed to build the **Gene Signature Pipeline** docker image.
 
 
-* Run the "make" command to build the **Data Cleanup Pipeline** docker image (output: docker image called "gene_signature_pipeline" and a tag with today's date and time):
+* Run the "make" command to build the **Gene Signature Pipeline** docker image (output: docker image called "gene_signature_pipeline" and a tag with today's date and time):
 ```
     make build_docker_image
 ```
